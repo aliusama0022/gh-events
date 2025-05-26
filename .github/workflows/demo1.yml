@@ -1,5 +1,5 @@
 name: Events Demo 1
-on: ...  
+on: ...
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -16,5 +16,3 @@ jobs:
         run: npm run build
       - name: Deploy project
         run: echo "Deploying..."
-
-        
